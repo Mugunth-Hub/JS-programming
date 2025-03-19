@@ -1,0 +1,19 @@
+Anchor Tag - redirect
+
+     Oru page to Another page
+
+     href- h=Hyper Reference 
+
+
+CSS-Styling the web page
+Cascading Style Sheet 
+
+Inline 
+Internal
+External
+
+Selector- to select a particular Tag  (Element)
+ 
+1. Tag selector selecting with the tag name is called tag selector 
+2. Id selector - unique - #
+3. Class Selector - Group - .

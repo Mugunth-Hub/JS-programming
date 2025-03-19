@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Boundless';
+    src: url('BoundlessRegular.eot');
+    src: url('BoundlessRegular.eot?#iefix') format('embedded-opentype'),
+        url('BoundlessRegular.woff2') format('woff2'),
+        url('BoundlessRegular.woff') format('woff'),
+        url('BoundlessRegular.ttf') format('truetype'),
+        url('BoundlessRegular.svg#BoundlessRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

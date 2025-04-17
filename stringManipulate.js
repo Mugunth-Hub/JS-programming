@@ -6,7 +6,6 @@
 // charCodeArt
 
 // let str1 = "Javascript"
-
 // console.log(str1.charCodeAt(3));
 
 // conCat
@@ -14,16 +13,53 @@
 // let newStr = str.concat(" ", str1)
 // console.log(newStr);
 
-// // Includes
-// let str2 = "Single Threaded"
+// Include
 
+// let str2 = "Single Threaded"
 // console.log(str2.includes("i", 1));
 // console.log(str2.includes("j", 1));
 
 // IndexOf
 
-let newStr1 = " Mugunth "
-console.log(newStr1.indexOf("u",3));
+// let newStr1 = "Mugunth" // No value find output is -1
+// console.log(newStr1.indexOf("u"));  //  Left To Right 
+
+// LastIndexOf
+
+// let newStr1 = "Mugunth" // Right to Left 
+// console.log(newStr1.lastIndexOf("a", 1)); // output -1
+// console.log(newStr1.lastIndexOf("u",3)); // output -1 if you define a value 3 it will take only 3 letter and search in it 
+
+
+// Repeat 
+
+// let newStr = " Mugunth "
+// console.log(newStr.repeat(6));
+
+
+// replace 
+
+// let str = " Mugunth is Spatz - Mugunth " 
+// console.log( str.replace("Mugunth","Mugu")); //only first
+// console.log( str.replaceAll("Mugunth","Mugu")); // All
+
+// Slice
+
+// let newStr = "Single Thread"
+// console.log( newStr.slice(3));// start 
+// console.log( newStr.slice(3,7)); // start n end
+// console.log( newStr.slice(-3,-1)); // ( -3, -2)
+
+// SubString & SubStr
+
+let newStr1 = "Single Thread"
+console.log(newStr1.substring(3) );
+console.log(newStr1.substring(3,8) );
+console.log(newStr1.substring(-3) ); // Negative is only 0 so it will not make any change
+
+
+
+
 
 
 

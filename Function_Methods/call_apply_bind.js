@@ -22,17 +22,22 @@
 
 
 let person = {
-    pLName : "Thambusamy",
-    pName : "Spatz",
+    pLName: "Thambusamy",
+    pName: "Spatz",
 }
 let person1 = {
-    pId : "CT1779",
-    pName : "Spatz",
-    pLName : "Thambusamy",
-    introYourself : function(){
-        console.log(this.pName + " " + this.pLName);
-        
+    pId: "CT1779",
+    pName: "Spatz",
+    pLName: "Thambusamy",
+    introYourself: function (a, b) {
+        console.log(this.pName + " " + this.pLName + (a + b));
+        return (a + b)
+
     }
 }
 
-person1.introYourself.call(person)
+person1.introYourself.call(person, 10, 20);
+person1.introYourself.apply(person, [1000, 2000]);
+
+let fun = person1.introYourself.bind(person, 1000, 2000);
+console.log(fun());

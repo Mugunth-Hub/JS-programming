@@ -13,7 +13,7 @@ console.log("succes:"+message );
 return "Next Sucess" + message
 })
 .catch((message)=>{
-console.log("Failure:"+message );
+console.log("Failure:"+message + message );
 
 })
 .finally(()=>{

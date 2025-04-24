@@ -4,7 +4,8 @@ let poppedVal = arr.pop()
 
 console.log(poppedVal, arr);
 
-arr.push(500, 550, 600)
+arr.push(500, 550, 600,700)
 
 console.log(arr);
+
 

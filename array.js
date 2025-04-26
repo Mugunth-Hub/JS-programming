@@ -25,7 +25,7 @@ console.log( newArray.length );
 
 //Dense & Spare Array
 
-let denseArray = [1,2,3,4,5] //Contiguos Memory
+let denseArray = [1,2,3,4,5,6] //Contiguos Memory
 
 //formula = baseAddress + (index * size)
 //            1004 + (0*4)=1004

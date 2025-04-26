@@ -10,6 +10,6 @@
 
 let nestArr = [1, 2, 3, 4, 5, 6[10, 20, [30]]]
 
-let [a, b, c, d, e, f, g, h,i] = nestArr
+let [a, b, c, d, e, f, g, h,i,j,k,l,m] = nestArr
 
 console.log(a, b, c, e, g);

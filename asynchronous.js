@@ -5,7 +5,7 @@ function f2() {
     console.log("Second");
 }
 function f3() {
-    console.log("Third");
+    console.log("Thirddd");
 }
 f1()
 f2()

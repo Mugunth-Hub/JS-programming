@@ -8,8 +8,8 @@
 // console.log(a1,a2,a4,...a5);
 
 
-let nestArr = [1, 2, 3, 4, 5, 6,7,8[10, 20, [30]]]
+let nestArr = [1, 2, 3, 4, 5[10, 20, [30]]]
 
-let [a, b, c, d, e, f, g, h,i,j,k,l,m,n] = nestArr
+let [a, b, c, d, e, f, g, h] = nestArr
 
 console.log(a, b, c, e, g);

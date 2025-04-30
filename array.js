@@ -25,11 +25,11 @@ console.log( newArray.length );
 
 //Dense & Spare Array
 
-let denseArray = [1,2,3,4,5,6] //Contiguos Memory
+let denseArray = [1,2,3] //Contiguos Memory
 
 //formula = baseAddress + (index * size)
 //            1004 + (0*4)=1004
 
-let spaeseArray = [ 10,20,,40,,60 ]// Hash table or Hash map
+let spaeseArray = [ 10,20,40 ]// Hash table or Hash map
 console.log(spaeseArray);
 

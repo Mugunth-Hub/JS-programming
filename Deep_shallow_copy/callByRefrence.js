@@ -26,7 +26,7 @@ let obj1 = {
     name : "Spatz"
 }
 
-let arr1 = [1,2,3]
+let arr1 = [1,2,3,4,5]
 
 let obj2 = obj1
 let arr2 = arr1

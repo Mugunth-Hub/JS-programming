@@ -23,5 +23,5 @@
 let x = 10;
 let y = x;
 // x = 20;
-y = 20;
+y = 21;
 console.log(x, y);

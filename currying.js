@@ -13,7 +13,7 @@ function add(a){
 
 add(10)(20)(30);
 
-let curry1 = add(100);
-let curry2 = curry1(200);
+let curry1 = add(1000);
+let curry2 = curry1(2000);
 curry2(300);
 

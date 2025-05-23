@@ -18,6 +18,8 @@ finally{
     console.log("end");
     
 }
+executePromise();
+
 console.log("End");
 console.log("End");
 console.log("End");

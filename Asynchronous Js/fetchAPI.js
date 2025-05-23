@@ -1,7 +1,11 @@
 fetch("")
     .then((response) => {
-        console.log(response.ok);
-        return response.json();
+        if (!response.ok) {
+            throw new Error("Data Not Found")
+        }
+        else {
+            return response.json();
+        }
     })
     .then((data) => {
         console.log(data);

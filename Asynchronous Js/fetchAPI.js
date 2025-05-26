@@ -14,3 +14,21 @@ fetch("")
         console.log(error.message);
 
     })
+
+async function fetchData() {
+    try {
+
+        let response = await fetch("http://fakestoreapi.com/users")
+        if (!response.ok) {
+            throw new Error("data not found")
+        }
+        else{
+        let data = await response.json()
+        console.log(data);
+        }
+    }
+    catch (error) {
+        console.log( error.message);
+    }
+}
+fetchData()

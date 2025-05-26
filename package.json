@@ -1,0 +1,20 @@
+{
+  "name": "js-programming",
+  "version": "1.0.0",
+  "description": "React Js Series ",
+  "main": "addRemoveReplace.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mugunth-Hub/JS-programming.git"
+  },
+  "author": "\"Mugunthan\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mugunth-Hub/JS-programming/issues"
+  },
+  "homepage": "https://github.com/Mugunth-Hub/JS-programming#readme"
+}

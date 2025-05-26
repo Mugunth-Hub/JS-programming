@@ -1,1 +1,1 @@
-let newOne = "AC"
+let newOne = ""

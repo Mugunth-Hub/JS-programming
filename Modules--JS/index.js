@@ -4,4 +4,4 @@ function indexFile(){
     console.log(product);
     
 }
-indexFile(J)
+indexFile()

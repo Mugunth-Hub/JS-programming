@@ -23,7 +23,7 @@ async function fetchData() {
             throw new Error("data not found")
         }
         else{
-        let data = await response.json(k)
+        let data = await response.json()
         console.log(data);
         }
     }

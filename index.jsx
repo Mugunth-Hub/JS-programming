@@ -23,7 +23,7 @@ function App() {
             {showDetails ? "Hide Details" : "Show Details"}
           </button>
           {showDetails && (
-            <p className="mt-2">Waterproof l, 2-year warranty.</p>
+            <p className="mt-2">Waterproof g, 2-year warranty.</p>
           )}
         </div>
       </div>

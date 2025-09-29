@@ -6,7 +6,6 @@
 
 .box2 {
   position: absolute;
-  z-index: 2;
+  z-index: 20;
   background: blue;
 }
-ss
